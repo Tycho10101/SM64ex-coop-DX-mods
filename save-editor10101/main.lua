@@ -34,7 +34,7 @@ function on_choosesave_command(msg)
 		edit_save_file = 3
 	elseif msg == "4" then
 		djui_chat_message_create("Set Save# to " ..msg.. "!")
-		edit_save_file = "4"
+		edit_save_file = 4
 	else
 		print(msg)
 		djui_chat_message_create(msg.. " is not valid. (Save A=1, Save B=2, Save C=3, Save D=4)")
